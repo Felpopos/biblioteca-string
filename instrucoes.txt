@@ -1,0 +1,22 @@
+1.
+a) Escreva uma função que recebe duas cadeias de caracteres (char *)
+   e diz se a segunda é subcadeia da primeira
+    Ex.: subcadeia("Prog", "og") -> SIM
+         subcadeia("Pr", "Prog") -> NÃO
+         subcadeia("Oi", "") -> SIM
+
+b) Modifique a função para retornar o índice onde a palavra foi encontrada (ou -1 se não foi encontrada)
+
+2. Escreva uma função que recebe uma cadeia com palavras separadas por sequências de um ou mais espaços e imprime uma palavra por linha.
+    quebra("Oi bom dia,       turma")
+    -> oi
+       bom
+       dia,
+       turma
+Dica: man 3 ctype isspace(c)
+
+3. Implemente uma função meu_strcmp que se comporta similar à strcmp da biblioteca padrão.
+   meu_strcmp(x, y) =
+        x<y -> Um número negativo
+        x=y -> zero
+        x>0 -> Um número positivo
